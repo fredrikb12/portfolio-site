@@ -25,10 +25,6 @@ export const StyledNavItem = styled.li`
     gap: 10px;
   }
 
-  a:hover {
-    font-size: 1.25rem;
-  }
-
   &:after {
     content: "";
     position: absolute;
