@@ -45,6 +45,32 @@ export const GlobalStyle = createGlobalStyle`
 }
   
   body {
-  background-color: ${({ theme }) => theme.main}
+  background-color: ${({ theme }) => theme.main};
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  
+}
+
+::-webkit-scrollbar-track {
+  background: ${({ theme }) => theme.main};
+  width: 10px;
+  padding: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: ${({ theme }) => theme.gray};
+  border-radius: 20px;
+  //-webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+  //box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: ${({ theme }) => theme.red}
 }
 `;
