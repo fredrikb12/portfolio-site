@@ -18,13 +18,13 @@ function AboutSection() {
           <BlueImportantSpan> programming</BlueImportantSpan> and specifically
           <BlueImportantSpan> web development,</BlueImportantSpan> and am
           currently expanding my knowledge within the React and Express
-          ecosystems. With solid foundations built upon the entirety of{" "}
+          ecosystems. With solid foundations built upon the{" "}
           <a
             style={{ color: "inherit" }}
             href="https://www.theodinproject.com/"
           >
-            The Odin Project's{" "}
-          </a>
+            The Odin Project's
+          </a>{" "}
           curriculum, I look hopefully toward a future building increasingly
           unique projects, this time on a team!
         </p>

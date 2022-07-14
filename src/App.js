@@ -1,6 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import AboutSection from "./components/AboutSection";
 import Header from "./components/Header";
+import ProjectsSection from "./components/ProjectsSection";
 import { GlobalStyle } from "./styled-components/GlobalStyle";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Header />
       <main>
         <AboutSection />
+        <ProjectsSection />
       </main>
     </ThemeProvider>
   );
