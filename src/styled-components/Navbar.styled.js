@@ -5,9 +5,12 @@ export const StyledNavbar = styled.nav`
   position: fixed;
   z-index: 10;
   top: 0;
-  padding: 20px 12vw;
+  min-height: 8vh;
+  padding: 0 12vw;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  backdrop-filter: blur(20px);
 `;
 
 export const StyledLogoContainer = styled.div`

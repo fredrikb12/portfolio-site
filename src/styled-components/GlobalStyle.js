@@ -43,10 +43,15 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   font-family: "Roboto", Lato, "Lucida Grande", Tahoma, Sans-Serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
   
   body {
   background-color: ${({ theme }) => theme.main};
   overflow-x: hidden;
+  
 }
 
 ::-webkit-scrollbar {
@@ -66,8 +71,6 @@ export const GlobalStyle = createGlobalStyle`
 ::-webkit-scrollbar-thumb {
   background: ${({ theme }) => theme.gray};
   border-radius: 20px;
-  //-webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
-  //box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
 }
 
 ::-webkit-scrollbar-thumb:hover {
