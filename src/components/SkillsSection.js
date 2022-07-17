@@ -1,12 +1,5 @@
 import { StyledSkillsSection } from "../styled-components/SkillsSection.styled";
-import webpack from "../images/languages-tools/webpack.svg";
-import git from "../images/languages-tools/git.svg";
 import styled from "../images/languages-tools/styled-components.svg";
-import mongodb from "../images/languages-tools/mongodb.svg";
-import node from "../images/languages-tools/node.svg";
-import js from "../images/languages-tools/javascript.svg";
-import react from "../images/languages-tools/react.svg";
-import express from "../images/languages-tools/express.svg";
 
 function SkillsSection() {
   return (

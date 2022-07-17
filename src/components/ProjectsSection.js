@@ -1,5 +1,4 @@
 import { StyledProjectsSection } from "../styled-components/ProjectsSection.styled";
-import odinbookImg from "../images/odinbook-screenshot.png";
 import odinbookImg2 from "../images/odinbook-zoomed-screenshot.png";
 import twitterImg from "../images/twitter-zoomed-screenshot.png";
 import battleshipImg from "../images/battleship-zoomed-screenshot.png";

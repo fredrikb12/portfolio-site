@@ -6,7 +6,6 @@ import SkillsIcon from "../images/skills.svg";
 import { StyledMobileNavbar } from "../styled-components/MobileNavbar.styled";
 import hamburgerMenu from "../images/hamburger.svg";
 import { useEffect, useRef, useState } from "react";
-import { StyledLogoContainer } from "../styled-components/Navbar.styled";
 import { StyledMobileHeader } from "../styled-components/MobileHeader.styled";
 
 function MobileNavbar() {
@@ -32,7 +31,7 @@ function MobileNavbar() {
   return (
     <>
       <StyledMobileHeader>
-        <div >
+        <div>
           <a
             style={{
               textDecoration: "none",
