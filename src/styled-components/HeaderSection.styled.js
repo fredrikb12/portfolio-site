@@ -9,4 +9,13 @@ export const StyledHeaderSection = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 20px;
+
+  @media (max-width: 768px) {
+    gap: 15px;
+    
+    button {
+      min-width: 120px;
+      padding: 4px 0;
+    }
+  }
 `;

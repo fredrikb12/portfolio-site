@@ -10,6 +10,11 @@ export const StyledButton = styled.button`
   &:hover {
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    padding: 4px 16px;
+    font-size: 1.2rem;
+  }
 `;
 
 export const StyledAboutButton = styled(StyledButton)`

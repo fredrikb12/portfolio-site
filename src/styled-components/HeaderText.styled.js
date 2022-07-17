@@ -7,4 +7,8 @@ export const StyledHeaderText = styled.h1`
   span {
     color: ${({ theme }) => theme.blue};
   }
+
+  @media(max-width: 1300px) {
+    text-align: center;
+  }
 `;
