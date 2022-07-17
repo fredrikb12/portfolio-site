@@ -30,7 +30,6 @@ function AboutSection() {
         </p>
       </div>
       <img
-        style={{ width: "400px" }}
         src={illustration}
         alt="react illustration"
       />

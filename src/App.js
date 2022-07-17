@@ -2,6 +2,7 @@ import { ThemeProvider } from "styled-components";
 import AboutSection from "./components/AboutSection";
 import Header from "./components/Header";
 import ProjectsSection from "./components/ProjectsSection";
+import SkillsSection from "./components/SkillsSection";
 import { GlobalStyle } from "./styled-components/GlobalStyle";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     white: "#F4FFFD",
     gray: "#70798C",
     darkGray: "#20232A",
+    lighterGray: "#383A3D",
     paleRed: "#CF6F82",
   };
   return (
@@ -20,6 +22,7 @@ function App() {
       <Header />
       <main>
         <AboutSection />
+        <SkillsSection />
         <ProjectsSection />
       </main>
     </ThemeProvider>

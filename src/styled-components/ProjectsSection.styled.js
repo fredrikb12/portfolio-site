@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledProjectsSection = styled.section`
   padding: 30vh 0 20vh;
-  background-color: ${({ theme }) => theme.main};
+  background-color: ${({ theme }) => theme.darkGray};
   display: grid;
   justify-content: center;
   gap: 200px;
