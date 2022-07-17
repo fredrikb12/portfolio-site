@@ -23,6 +23,8 @@ export const StyledSkillsSection = styled.section`
   @media (max-width: 1024px) {
     display: flex;
     flex-direction: column;
+    padding: 10vh 0;
+    gap: 80px;
 
     div {
       flex-direction: row;
@@ -38,7 +40,7 @@ export const StyledSkillsSection = styled.section`
 
   @media (max-width: 600px) {
     padding: 15vh 0;
-    gap: 60px;
+    gap: 40px;
 
     div {
       padding: 20px;

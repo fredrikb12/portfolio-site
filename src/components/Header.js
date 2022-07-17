@@ -1,6 +1,7 @@
 import { StyledHeaderSection } from "../styled-components/HeaderSection.styled";
 import { StyledHeaderText } from "../styled-components/HeaderText.styled";
 import AboutButton from "./AboutButton";
+import MobileNavbar from "./MobileNavbar";
 import Navbar from "./Navbar";
 import ProjectsButton from "./ProjectsButton";
 
@@ -18,6 +19,7 @@ function Header() {
       }}
     >
       <Navbar />
+      <MobileNavbar />
       <StyledHeaderSection>
         <StyledHeaderText>
           I'm Fredrik, a <span>Full Stack Developer.</span>

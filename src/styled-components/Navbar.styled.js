@@ -11,6 +11,11 @@ export const StyledNavbar = styled.nav`
   align-items: center;
   justify-content: space-between;
   backdrop-filter: blur(20px);
+
+  @media (max-width: 900px) {
+    display: none;
+    visibility: hidden;
+  }
 `;
 
 export const StyledLogoContainer = styled.div`
