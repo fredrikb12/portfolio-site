@@ -1,3 +1,4 @@
+import { StyledHeader } from "../styled-components/Header.styled";
 import { StyledHeaderSection } from "../styled-components/HeaderSection.styled";
 import { StyledHeaderText } from "../styled-components/HeaderText.styled";
 import AboutButton from "./AboutButton";
@@ -7,17 +8,7 @@ import ProjectsButton from "./ProjectsButton";
 
 function Header() {
   return (
-    <header
-      id="home"
-      style={{
-        backgroundColor: "#242526",
-        minHeight: "100vh",
-        display: "flex",
-        alignItems: "center",
-        width: "100vw",
-        justifyContent: "center",
-      }}
-    >
+    <StyledHeader id="home">
       <Navbar />
       <MobileNavbar />
       <StyledHeaderSection>
@@ -35,7 +26,7 @@ function Header() {
           <ProjectsButton />
         </div>
       </StyledHeaderSection>
-    </header>
+    </StyledHeader>
   );
 }
 

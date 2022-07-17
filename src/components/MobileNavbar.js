@@ -32,7 +32,7 @@ function MobileNavbar() {
   return (
     <>
       <StyledMobileHeader>
-        <div style={{ position: "fixed", top: 10, left: 10 }}>
+        <div >
           <a
             style={{
               textDecoration: "none",

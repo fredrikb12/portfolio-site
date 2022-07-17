@@ -11,6 +11,7 @@ export const StyledNavbar = styled.nav`
   align-items: center;
   justify-content: space-between;
   backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.2);
 
   @media (max-width: 900px) {
     display: none;
