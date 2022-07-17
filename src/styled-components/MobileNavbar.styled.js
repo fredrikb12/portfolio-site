@@ -24,11 +24,10 @@ export const StyledMobileNavbar = styled.nav`
     flex-direction: column;
     list-style: none;
     align-items: center;
-    font-size: 1.5rem;
-    gap: 30px;
+    gap: 35px;
 
     li {
-      font-size: 1.8rem;
+      font-size: 1.4rem;
       height: auto;
       width: 100%;
       display: flex;
@@ -40,7 +39,7 @@ export const StyledMobileNavbar = styled.nav`
         gap: 25px;
 
         img {
-          width: 40px;
+          width: 30px;
         }
       }
     }
