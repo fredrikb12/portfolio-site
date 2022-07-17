@@ -5,6 +5,7 @@ export const StyledNavbar = styled.nav`
   position: fixed;
   z-index: 10;
   top: 0;
+  left: 0;
   min-height: 8vh;
   padding: 0 12vw;
   display: flex;
