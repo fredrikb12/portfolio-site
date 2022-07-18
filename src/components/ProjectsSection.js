@@ -2,6 +2,7 @@ import { StyledProjectsSection } from "../styled-components/ProjectsSection.styl
 import odinbookImg2 from "../images/odinbook-zoomed-screenshot.png";
 import twitterImg from "../images/twitter-zoomed-screenshot.png";
 import battleshipImg from "../images/battleship-zoomed-screenshot.png";
+import waldoImg from "../images/waldo-screenshot.png";
 import ProjectCard from "./ProjectCard";
 
 function ProjectsSection() {
@@ -30,7 +31,14 @@ function ProjectsSection() {
       repoLink: "https://github.com/fredrikb12/battleship",
       liveLink: "https://fredrikb12.github.io/battleship/",
     },
-    // { title: "", description: "", img: {}, repoLink: "", liveLink: "" },
+    {
+      title: "Where's Waldo?",
+      description:
+        'A web app take on the classic "puzzle", utilizing React and Firebase.',
+      img: waldoImg,
+      repoLink: "https://github.com/fredrikb12/wheres-waldo",
+      liveLink: "https://fredrikb12.github.io/wheres-waldo/",
+    },
   ];
   return (
     <StyledProjectsSection id="projects">
