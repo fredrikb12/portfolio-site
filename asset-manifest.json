@@ -1,6 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.dc821f81.js",
+    "main.js": "/static/js/main.53c7f6da.js",
+    "static/media/waldo-screenshot.png": "/static/media/waldo-screenshot.eb74d09bc189fafe41da.png",
     "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
     "static/media/Roboto-Thin.ttf": "/static/media/Roboto-Thin.1711b41f3ae4cb322eea.ttf",
     "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
@@ -18,9 +19,9 @@
     "static/media/home.svg": "/static/media/home.9c556df509c251546cbf2dca793e8e9d.svg",
     "static/media/about.svg": "/static/media/about.2f179abd2b08c4be04f5123f3d5efdbb.svg",
     "index.html": "/index.html",
-    "main.dc821f81.js.map": "/static/js/main.dc821f81.js.map"
+    "main.53c7f6da.js.map": "/static/js/main.53c7f6da.js.map"
   },
   "entrypoints": [
-    "static/js/main.dc821f81.js"
+    "static/js/main.53c7f6da.js"
   ]
 }
