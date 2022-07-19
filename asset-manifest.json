@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.53c7f6da.js",
+    "main.js": "/static/js/main.6f7f0dff.js",
     "static/media/waldo-screenshot.png": "/static/media/waldo-screenshot.eb74d09bc189fafe41da.png",
     "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
     "static/media/Roboto-Thin.ttf": "/static/media/Roboto-Thin.1711b41f3ae4cb322eea.ttf",
@@ -15,13 +15,14 @@
     "static/media/projects.svg": "/static/media/projects.5f3afbdcb382d4db45530a54c2bea0c1.svg",
     "static/media/skills.svg": "/static/media/skills.878d08103d30e65def1b0f69e2931e68.svg",
     "static/media/styled-components.svg": "/static/media/styled-components.5df2c384312353c5222cd8225fabaaf1.svg",
+    "static/media/email.svg": "/static/media/email.337544f74d76d5cde186cf344ecc2285.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.515b0bfc14075dbf58e77d890a99174a.svg",
     "static/media/home.svg": "/static/media/home.9c556df509c251546cbf2dca793e8e9d.svg",
     "static/media/about.svg": "/static/media/about.2f179abd2b08c4be04f5123f3d5efdbb.svg",
     "index.html": "/index.html",
-    "main.53c7f6da.js.map": "/static/js/main.53c7f6da.js.map"
+    "main.6f7f0dff.js.map": "/static/js/main.6f7f0dff.js.map"
   },
   "entrypoints": [
-    "static/js/main.53c7f6da.js"
+    "static/js/main.6f7f0dff.js"
   ]
 }
