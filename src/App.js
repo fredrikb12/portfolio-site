@@ -1,5 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import AboutSection from "./components/AboutSection";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ProjectsSection from "./components/ProjectsSection";
 import SkillsSection from "./components/SkillsSection";
@@ -25,6 +26,7 @@ function App() {
         <SkillsSection />
         <ProjectsSection />
       </main>
+      <Footer />
     </ThemeProvider>
   );
 }
