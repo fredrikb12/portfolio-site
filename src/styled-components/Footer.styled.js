@@ -7,4 +7,14 @@ export const StyledFooter = styled.footer`
   align-items: center;
   gap: clamp(50px, 10vw, 100px);
   padding: 25px;
+
+  img {
+    width: 60px;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 40px;
+    }
+  }
 `;
